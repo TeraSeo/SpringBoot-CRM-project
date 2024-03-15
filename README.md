@@ -55,6 +55,8 @@ It leverages Spring Boot (Java) and MySQL to provide robust functionality and da
     <img width="1476" alt="Screenshot 2024-03-15 at 3 38 24 PM" src="https://github.com/TeraSeo/SpringBoot-CRM-project/assets/96968917/b017f5a1-32fd-4845-ab9e-0b07c950f5a1">
 </details>
 
+<br>
+
 <details>
   <summary>Import/Export Customer details(using excel files)</summary>
   <img width="1505" alt="Screenshot 2024-03-15 at 3 39 40 PM" src="https://github.com/TeraSeo/SpringBoot-CRM-project/assets/96968917/25c466d1-9b95-43d2-8eb6-0467397fcf75">
