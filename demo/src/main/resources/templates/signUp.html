@@ -6,56 +6,56 @@
 
   <title>AM CRM</title>
   <link href="/css/signup.css" rel="stylesheet" type="text/css"/>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="mx-auto" id="main">
-        <div class="card flex-row my-5 border-0 shadow rounded-3 overflow-hidden">
-          <div class="card-img-left d-none d-md-flex" id="background">
-            <!-- Background image for card set in CSS! -->
-          </div>
-          <div class="card-body p-4 p-sm-5">
-            <h5 class="card-title text-center mb-5 fw-light fs-5">Register</h5>
-            <form name = "correct" th:action="@{signUpAction}" method="post">
+<div class="container">
+  <div class="row">
+    <div class="mx-auto" id="main">
+      <div class="card flex-row my-5 border-0 shadow rounded-3 overflow-hidden">
+        <div class="card-img-left d-none d-md-flex" id="background">
+          <!-- Background image for card set in CSS! -->
+        </div>
+        <div class="card-body p-4 p-sm-5">
+          <h5 class="card-title text-center mb-5 fw-light fs-5">Register</h5>
+          <form name = "correct" th:action="@{signUpAction}" method="post">
 
-              <div class="form-floating mb-3">
-                <input type="text" class="form-control" placeholder="myusername" required autofocus maxlength="25" name="userId">
-                <label>Username</label>
-              </div>
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" placeholder="myusername" required autofocus maxlength="25" name="userId">
+              <label>Username</label>
+            </div>
 
-              <div class="form-floating mb-3">
-                <input type="password" class="form-control" placeholder="Password" maxlength="25" name="userPassword">
-                <label>Password</label>
-              </div>
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control" placeholder="Password" maxlength="25" name="userPassword">
+              <label>Password</label>
+            </div>
 
-              <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingInputUsername" placeholder="myusername" required autofocus maxlength="25" name="userName">
-                <label>Name</label>
-              </div>
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="floatingInputUsername" placeholder="myusername" required autofocus maxlength="25" name="userName">
+              <label>Name</label>
+            </div>
 
 
-              <div class="form-floating mb-3">
-                <input type="email" class="form-control" placeholder="name@example.com" name="userEmail">
-                <label>Email address</label>
-              </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" placeholder="name@example.com" name="userEmail">
+              <label>Email address</label>
+            </div>
 
-              <hr>
+            <hr>
 
-              <div class="d-grid mb-2">
-                <button class="btn btn-lg btn-primary btn-login fw-bold text-uppercase" type="submit">Register</button>
-              </div>
+            <div class="d-grid mb-2">
+              <button class="btn btn-lg btn-primary btn-login fw-bold text-uppercase" type="submit">Register</button>
+            </div>
 
-              <a class="d-block text-center mt-2 small" th:href="@{/AM}">Have an account? Sign In</a>
+            <a class="d-block text-center mt-2 small" th:href="@{/AM}">Have an account? Sign In</a>
 
-              <hr class="my-4">
+            <hr class="my-4">
 
-            </form>
-          </div>
+          </form>
         </div>
       </div>
     </div>
   </div>
+</div>
 </body>
 </html>

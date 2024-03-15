@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
-    <title>AM CRM</title>
+  <meta charset="UTF-8">
+  <title>AM CRM</title>
 
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -25,8 +25,8 @@
         <div class="dropdown">
           <a th:href="@{main}" class="dropdown-toggle navbar-brand brand-logo-mini" data-bs-toggle="dropdown"><img src="/images/logo-mini.svg" alt="logo" /> </a>
           <div class="dropdown-menu">
-            <a th:href="@{main}" class="dropdown-item">고객 정보 목록</a>
-            <a th:href="@{home}" class="dropdown-item">고객 정보 등록</a>
+            <a th:href="@{main}" class="dropdown-item">User Info List</a>
+            <a th:href="@{home}" class="dropdown-item">Add New User Info</a>
           </div>
         </div>
       </div>
@@ -38,8 +38,8 @@
 
       <ul class="navbar-nav navbar-nav-right">
 
-        <li><a th:href="@{logoutAction}" class="nav-link" >로그아웃</a></li>
-        <li><a th:href="@{adminPage}" class="nav-link" style = "margin-left : 30px;">관리자 페이지</a></li>
+        <li><a th:href="@{logoutAction}" class="nav-link" >Logout</a></li>
+        <li><a th:href="@{adminPage}" class="nav-link" style = "margin-left : 30px;">Admin Page</a></li>
 
       </ul>
 
@@ -64,14 +64,14 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" th:href="@{main}">
-            <span class="menu-title" style = "font-size : 15px;">고객 정보 목록</span>
+            <span class="menu-title" style = "font-size : 15px;">User Info List</span>
             <i class="mdi mdi-home menu-icon"></i>
           </a>
         </li>
 
         <li class="nav-item">
           <a class="nav-link" th:href="@{home}">
-            <span class="menu-title" style = "font-size : 15px;">고객 정보 등록</span>
+            <span class="menu-title" style = "font-size : 15px;">Add New User Info</span>
             <i class="mdi mdi-format-list-bulleted menu-icon"></i>
           </a>
         </li>
@@ -92,9 +92,9 @@
                     <tr>
                       <th scope="col">#</th>
                       <th scope="col">ID</th>
-                      <th scope="col">이름</th>
-                      <th scope="col">id 허용</th>
-                      <th scope="col">id 허용 X</th>
+                      <th scope="col">Name</th>
+                      <th scope="col">Allow</th>
+                      <th scope="col">Disallow</th>
                       <th></th>
 
                     </tr>
