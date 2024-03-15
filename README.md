@@ -39,8 +39,8 @@ It leverages Spring Boot (Java) and MySQL to provide robust functionality and da
 
 <h2>Functionalities</h2>
 
-<li>User/Admin Login, Account Management</li>
 <details>
+  <li>User/Admin Login, Account Management</li>
   <summary> 
     <img width="1414" alt="Screenshot 2024-03-15 at 3 32 39 PM" src="https://github.com/TeraSeo/SpringBoot-CRM-project/assets/96968917/27a5a967-7d38-4699-b1cd-ac44ff60d2de">
     <br>
